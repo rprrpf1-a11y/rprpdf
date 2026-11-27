@@ -1,0 +1,40 @@
+{
+  "name": "RprPDF — 100% Private PDF Tools",
+  "short_name": "RprPDF",
+  "description": "Zero-storage, 100% client-side PDF editor, merger, splitter, compressor, and office converter.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Split PDF",
+      "url": "./index.html#split",
+      "description": "Visually split and extract PDF pages"
+    },
+    {
+      "name": "Merge PDF",
+      "url": "./index.html#merge",
+      "description": "Combine multiple PDFs into one"
+    },
+    {
+      "name": "Edit PDF",
+      "url": "./index.html#edit",
+      "description": "Add text and images to PDF"
+    },
+    {
+      "name": "Compress PDF",
+      "url": "./index.html#compress",
+      "description": "Optimize and reduce PDF size"
+    }
+  ]
+}

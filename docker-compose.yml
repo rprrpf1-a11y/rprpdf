@@ -1,0 +1,9 @@
+services:
+  privapdf:
+    build: .
+    container_name: privapdf-app
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production

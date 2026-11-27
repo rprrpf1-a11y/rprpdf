@@ -1,0 +1,2 @@
+# PrivaPDF / RprPDF is a 100% client-side web application.
+# Python server uses standard libraries only (http.server). No external packages required.

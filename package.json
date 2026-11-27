@@ -1,0 +1,24 @@
+{
+  "name": "rprpdf",
+  "version": "1.0.0",
+  "description": "100% Client-Side, Zero-Storage PDF Editor and Converter Suite",
+  "main": "index.html",
+  "scripts": {
+    "start": "python server.py",
+    "dev": "python server.py",
+    "serve": "python server.py",
+    "build": "echo 'Static production build ready: no compilation required.'",
+    "preview": "python server.py"
+  },
+  "keywords": [
+    "pdf-editor",
+    "client-side",
+    "privacy-first",
+    "webassembly",
+    "pdf-lib",
+    "pdfjs",
+    "zero-storage"
+  ],
+  "author": "RprPDF",
+  "license": "MIT"
+}
