@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="64" height="64" rx="16" fill="url(#grad)"/>
+  
+  <!-- PDF Sheet Icon -->
+  <path d="M20 16C20 14.8954 20.8954 14 22 14H36L44 22V48C44 49.1046 43.1046 50 42 50H22C20.8954 50 20 49.1046 20 48V16Z" fill="#ffffff" fill-opacity="0.95"/>
+  <path d="M36 14V22H44" fill="#cbd5e1"/>
+  
+  <!-- Shield Emblem (Privacy) -->
+  <path d="M32 28C36.4183 28 40 31.5817 40 36C40 42 32 46 32 46C32 46 24 42 24 36C24 31.5817 27.5817 28 32 28Z" fill="url(#shield)"/>
+  <path d="M30 36L32 38L35 34" stroke="#ffffff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

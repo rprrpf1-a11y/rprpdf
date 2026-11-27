@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 54" fill="none">
+  <defs>
+    <linearGradient id="logo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="logo-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="logo-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#4f46e5" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Emblem Icon (Left) -->
+  <g transform="translate(2, 3)">
+    <!-- Base -->
+    <rect width="48" height="48" rx="14" fill="url(#logo-bg)" filter="url(#logo-shadow)"/>
+    <rect x="0.5" y="0.5" width="47" height="47" rx="13.5" stroke="#ffffff" stroke-width="1" stroke-opacity="0.2"/>
+    
+    <!-- Paper Sheet -->
+    <path d="M16 11C14.8954 11 14 11.8954 14 13V35C14 36.1046 14.8954 37 16 37H32C33.1046 37 34 36.1046 34 35V18L27 11H16Z" fill="#ffffff"/>
+    <path d="M27 11V17C27 17.5523 27.4477 18 28 18H34L27 11Z" fill="#cbd5e1"/>
+    
+    <!-- Lines -->
+    <rect x="17.5" y="16.5" width="6.5" height="1.5" rx="0.75" fill="#e2e8f0"/>
+    <rect x="17.5" y="20" width="11" height="1.5" rx="0.75" fill="#e2e8f0"/>
+
+    <!-- Shield Check -->
+    <path d="M24 23C27.5 23 30 25.5 30 28.5C30 33.5 24 36.5 24 36.5C24 36.5 18 33.5 18 28.5C18 25.5 20.5 23 24 23Z" fill="url(#logo-shield)"/>
+    <path d="M22 28.5L23.5 30L26 27" stroke="#ffffff" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Typography (Right) -->
+  <text x="60" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" letter-spacing="-0.5">Rpr<tspan fill="#4f46e5">PDF</tspan></text>
+  <text x="60.5" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#64748b" letter-spacing="1.2">100% PRIVATE TOOLS</text>
+</svg>
